@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  font-size: 2em; }
+
+nav {
+  background: #5FC060;
+  text-align: center;
+  padding: 2em 0; }
+  nav a {
+    margin-right: 1em;
+    text-decoration: none;
+    border: black solid 0.1em;
+    padding: .3em;
+    color: white; }
+    nav a:hover {
+      color: navy; }
+
+#playScreen img {
+  margin: 0 auto;
+  width: 100%; }
+
+#loadScreen {
+  background: gray;
+  padding: 5em 0 25em 0;
+  text-align: center; }
+
+#leaderboardScreen {
+  text-align: center;
+  padding-top: 5em; }
+  #leaderboardScreen div {
+    width: 20%;
+    margin: 0 auto; }
+
+#settingsScreen {
+  text-align: center;
+  padding-top: 5em; }
+  #settingsScreen div {
+    width: 20%;
+    margin: 0 auto; }

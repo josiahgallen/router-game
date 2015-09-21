@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Backbone Router Game</title>
+    <link rel="stylesheet" type="text/css" href="/styles/main.sass.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#play">Play</a>
+        <a href="#leaderboard">Leader Board</a>
+        <a href="#settings">Settings</a>
+    </nav>
+    <section id="loadScreen">Loading...</section>
+    <section id="playScreen">
+        <div>
+            <img src="http://img.gamefaqs.net/screens/9/8/1/gfs_18739_2_29.jpg">
+        </div>
+    </section>
+    <section id="leaderboardScreen">
+        <h1>Leader Board</h1>
+        <div>
+            <ol>
+                <li>Mario</li>
+                <li>Luigi</li>
+                <li>Toad</li>
+                <li>Yoshi</li>
+                <li>Princess</li>
+                <li>Wario</li>
+                <li>Bowser</li>
+                <li>Donkey Kong</li>
+                <li>Goomba</li>
+                <li>Baby Mario</li>
+            </ol>
+        </div>
+    </section>
+    <section id="settingsScreen">
+    	<div>
+    		<ul>
+    			<li>Video Settings</li>
+    			<li>Audio Settings</li>
+    			<li>Controls</li>
+    			<li>Help</li>
+    		</ul>
+    	</div>
+    </section>
+    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+
+    <script type="text/javascript" src="/node_modules/backbone/node_modules/underscore/underscore-min.js"></script>
+
+    <script type="text/javascript" src="/node_modules/backbone/backbone-min.js"></script>
+
+    <script type="text/javascript" src="/scripts/main.js"></script>
+</body>
+
+</html>
